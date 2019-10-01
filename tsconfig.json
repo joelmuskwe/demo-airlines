@@ -15,7 +15,20 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demo-airlines/airplanes/feature-shell": [
+        "libs/airplanes/feature-shell/src/index.ts"
+      ],
+      "@demo-airlines/categories/feature-shell": [
+        "libs/categories/feature-shell/src/index.ts"
+      ],
+      "@demo-airlines/categories/data-access": [
+        "libs/categories/data-access/src/index.ts"
+      ],
+      "@demo-airlines/airplanes/data-access": [
+        "libs/airplanes/data-access/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

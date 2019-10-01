@@ -7,5 +7,24 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "admin-portal-e2e": {
+      "tags": []
+    },
+    "admin-portal": {
+      "tags": ["scope:shared", "type:app", "platform:desktop"]
+    },
+    "airplanes-feature-shell": {
+      "tags": ["scope:shared", "type:feature"]
+    },
+    "categories-feature-shell": {
+      "tags": ["scope:shared", "type:feature"]
+    },
+    "categories-data-access": {
+      "tags": ["scope:shared", "type:data-access"]
+    },
+    "airplanes-data-access": {
+      "tags": ["scope:shared", "type:data-access"]
+    }
+  }
 }
